@@ -18,9 +18,9 @@
     background-color: var(--background-red);
   }
 
-  main{
+  /* main{
     height: 100%;
-  }
+  } */
 
   
   a{
@@ -89,7 +89,7 @@
   section{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     justify-content: center;
   }
@@ -98,25 +98,73 @@
     background-color: var(--background-white);
     display: flex;
     flex-direction: column;
-    max-width: 55%;
+    max-width: 50%;
+
+    padding: 2rem 1rem;
+    border-radius: 10px;
+  }
+
+  h2{
+    padding-bottom: 2rem;
+  }
+
+  h2, p{
+    text-align: center;
   }
 
   .infos-pessoais {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 2fr 1fr; 
     max-width: 100%;
     gap: 7rem; 
   }
 
-  .infos-pessoais input, .infos-pessoais label {
-      width: 30rem; 
+  .infos-pessoais input,label {
+      width: 100%;
+  }
+
+  .inputsData{
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  input, select{
+    background-color: var(--background-inputs);
+
+    padding: 8px 0;
+    margin: 1rem 0;
+
+    border: none;
+    border-radius: 10px;
+   
   }
 
   img {
-      width: 10rem;
+      width: 9rem;
+      height: 7rem;
+  }
+
+  button{
+    color: white;
+    background-color: var(--background-red);
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 30%;
+
+    border: none;
+    border-radius: 20px;
   }
 
 
+  footer{
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem 0;
+
+    background-color: var(--background-white);
+  }
   
   @media (max-width: 750px) {
   .hamburger {
@@ -185,5 +233,19 @@
   .nav.active .hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+
+  form{
+    max-width: 80%;
+  }
+
+  .infos-pessoais{
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  img{
+    display: none;
   }
 }
