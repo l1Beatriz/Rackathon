@@ -18,9 +18,9 @@
     background-color: var(--background-red);
   }
 
-  /* main{
+  main{
     height: 100%;
-  } */
+  }
 
   
   a{
@@ -160,8 +160,10 @@
   footer{
     display: flex;
     justify-content: center;
+    margin: auto;
 
     padding: 1rem 0;
+    width: 100%;
 
     background-color: var(--background-white);
   }
@@ -235,6 +237,10 @@
     top: -7px;
   }
 
+  header{
+    margin-bottom: 7rem;
+  }
+
   form{
     max-width: 80%;
   }
@@ -248,4 +254,10 @@
   img{
     display: none;
   }
+
+  button{
+    width: 50%;
+  }
+
+ 
 }
