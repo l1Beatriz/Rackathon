@@ -37,7 +37,7 @@
     color: #fff;
 }
 
-span {
+.introduction > span {
     display: block;
 }
 
@@ -111,4 +111,33 @@ span {
 .card > p {
     font-family: var(--main-font);
     margin-top: 20px;
+}
+
+footer {
+    background-color: #c0c0c0;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.section-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-footer > span {
+    font-family: var(--main-font);
+    margin-top: 20px;
+}
+
+.list-icons {
+    display: flex;
+}
+
+.item-icon {
+    margin: 0 10px;
+}
+
+.item-icon > img {
+    width: 40px;
 }
