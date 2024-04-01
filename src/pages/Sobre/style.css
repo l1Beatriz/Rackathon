@@ -1,17 +1,17 @@
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  font-weight: 400;
 }
 
 :root{
 
-  --bg-white: #f0f0f0
-
+  --bg-white: #FFFCFC;
+  --bg-red: #A90009;
+  --background-inputs: #D9D9D9;
 }
+
 
 body{
   background: var(--bg-white);
@@ -203,11 +203,12 @@ width: 29rem;
 }
 
 #div_img {
-height: 35rem;
-width: 35rem;
+
 display: flex;
 align-items: center;
 justify-content: center;
+
+
 }
 #sessao3{
   display: grid;
@@ -313,7 +314,7 @@ justify-content: center;
 
 #div_sessa3 button{
   color: #fff;
-  background-color: #A90009;
+  background-color: #a90009;
   margin: 2rem auto ;
 }
 button{
