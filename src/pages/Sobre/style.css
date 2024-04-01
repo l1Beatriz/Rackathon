@@ -329,12 +329,13 @@ button{
  font-size: 25px;
  margin: 1rem auto;
 }
-footer {
-	color: #ecf0f1;
-	font-size: 12px;
-	text-align: center;
-	padding: 1em 0;
-	bottom: 0;
-	width: 100%;
-  }
+footer{
+  display: flex;
+  justify-content: center;
+  margin: auto;
 
+  padding: 1rem 0;
+  width: 100%;
+
+  background-color: var(--background-white);
+}
