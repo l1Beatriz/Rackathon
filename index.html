@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gotas do Amanhã</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
@@ -19,39 +26,54 @@
       </nav>
     </header>
     <main class="hero">
-      <div class="container">
-        <img
-          class="container_img"
-          src="src/assets/Blood donation-pana 2.png"
-          alt=""
-        />
-        <div class="container_text">
-          <h1>GOTAS DO AMANHÃ</h1>
-          <p class="text">
-            Gotas do Amanhã é uma ONG dedicada à promoção da doação de sangue,
-            colaborando com hospitais e comunidades para garantir o suprimento
-            vital de sangue para pacientes em necessidade. A organização realiza
-            campanhas de conscientização, coletas regulares e trabalha para
-            criar uma cultura de solidariedade em torno da doação voluntária de
-            sangue, salvando vidas e oferecendo esperança para o futuro.
-          </p>
-          <button><strong>Cadastre-se</strong></button>
+      <section class="container-primario">
+        <div class="container">
+          <div class="container_img">
+            <img
+              class="container_img"
+              src="src/assets/Blood donation-pana 2.png"
+              alt=""
+            />
+          </div>
+          <div class="container_text">
+            <h1 id="text-white">GOTAS DO AMANHÃ</h1>
+            <p id="text-white" class="text">
+              Gotas do Amanhã é uma ONG dedicada à promoção da doação de sangue,
+              colaborando com hospitais e comunidades para garantir o suprimento
+              vital de sangue para pacientes em necessidade. A organização
+              realiza campanhas de conscientização, coletas regulares e trabalha
+              para criar uma cultura de solidariedade em torno da doação
+              voluntária de sangue, salvando vidas e oferecendo esperança para o
+              futuro.
+            </p>
+            <button><strong>Cadastre-se</strong></button>
+          </div>
         </div>
-      </div>
-
-      <section class="container_secundario">
-        <div class="container_secundario__DOAR">
-          <h2>ESSES SÃO NOSSOS PRINCIPAIS PONTOS NO BRASIL</h2>
-          <div class="hospitais"></div>
-        </div>
-        <div>
-          <h2>QUEM PODE DOAR SANGUE?</h2>
-          <h3>Quer ajudar as pessoas com um belo gesto?</h3>
-          <p>
-            Seja um doador de sangue e transforme a vida de quem precisa!
-            Conheça os requisitos básicos para se tornar um doador.
-          </p>
-          <img src="src/assets/sangue-removebg-preview 1.png" alt="" />
+      </section>
+      <section class="container-secundario">
+        <div class="container">
+          <div class="container_img">
+            <h2>ESSES SÃO NOSSOS PRINCIPAIS PONTOS NO BRASIL</h2>
+            <div class="container-hospital">
+              <div class="hospital"></div>
+            </div>
+          </div>
+          <div class="container_text">
+            <h2>QUEM PODE DOAR SANGUE?</h2>
+            <h3>Quer ajudar as pessoas com um belo gesto?</h3>
+            <p class="text">
+              Seja um doador de sangue e transforme a vida de quem precisa!
+              Conheça os requisitos básicos para se tornar um doador.
+            </p>
+            <div class="container_img">
+              <img src="./src/assets/sangue-removebg-preview 1.png" alt="" />
+            </div>
+            <div class="container-btn_secundario">
+              <button class="btn_secundario">
+                <strong>SAIBA O QUE É PRECISO PARA DOAR </strong>
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </main>
