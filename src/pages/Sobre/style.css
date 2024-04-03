@@ -188,6 +188,16 @@ div h1, div p{
   text-align: center;
 
 }
+#div_sessao1 button{ 
+
+  background-color: var(--bg-white);
+  margin: 2rem auto ;
+  height: 35px;
+  width: 186px;
+  border-radius: 23px;
+  border: none;
+  cursor: pointer;
+}
 
 #div_sessao2{
 
