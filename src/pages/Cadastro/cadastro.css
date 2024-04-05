@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@300;700&family=Josefin+Slab&family=Playpen+Sans:wght@100&display=swap');
+
+:root {
+    --main-color: #A90009;
+    --main-font: "Comfortaa", sans-serif;
+    --color-input: #D9D9D9;
+}
+
+main {
+    background-color: var(--main-color);
+}
+
+.section-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+}
+
+.main-title {
+    font-family: var(--main-font);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+    padding: 40px;
+    max-width: 50%;
+    border-radius: 10px;
+
+    box-shadow: 3px 3px 20px black;
+}
+
+.container-form {
+   display: flex; 
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 20%;
+}
+
+.container-inputs > label {
+    margin-bottom: 15px;
+}
+
+.container-inputs > input {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 110%;
+
+    border: none;
+    background-color: var(--color-input);
+    border-radius: 10px;
+}
+
+.span-info {
+    color: var(--main-color);
+}
+
+.container-button > button {
+    background-color: var(--main-color);
+    color: #fff;
+}
