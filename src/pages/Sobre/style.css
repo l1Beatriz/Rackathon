@@ -155,7 +155,7 @@ a {
   }}
 #section1{
   background-color: #A90009;
-  height: 326px;
+  height: 21rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -191,7 +191,7 @@ div h1, div p{
 #div_section1 button{ 
 
   background-color: var(--bg-white);
-  margin: 2rem auto ;
+ 
   height: 35px;
   width: 186px;
   border-radius: 23px;
