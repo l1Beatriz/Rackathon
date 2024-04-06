@@ -18,7 +18,7 @@
 form{
       display: flex;
       flex-direction: column;
-      height: 35rem;
+      height: 30rem;
       background-color: var(--background-white);
       padding: 2rem 1rem;
       border-radius: 10px;
