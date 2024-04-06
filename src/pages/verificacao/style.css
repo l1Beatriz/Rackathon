@@ -11,6 +11,7 @@
       padding: 0;
       font-family: "Comfortaa", sans-serif;
       font-weight: 400;
+      border: #000 solid 1px;
 }
   
 body{
@@ -24,7 +25,7 @@ form{
       background-color: var(--background-white);
       padding: 2rem 1rem;
       border-radius: 10px;
-      margin: 1rem;
+
 }
 
 #div_imput{
@@ -44,6 +45,7 @@ input{
      height: 1.5rem;
      border: none;
      background: var(--background-inputs);
+ 
 }
 
 
@@ -77,10 +79,10 @@ form h1{
 #content{
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-
+  border: #00c4f5 solid 1px;
 }
 
 footer{
@@ -97,7 +99,7 @@ main{
       display: flex;
       align-items: center;
       justify-content: center;
-      border: #000 solid 1px;
+      border: #1cf000 solid 1px;
   }
 
 a{
@@ -160,7 +162,19 @@ a{
     position: relative;
     transition: 0.3s;
   }
+   
+  @media (max-width: 750px){
+   input{
+      width: 100%;
+      height: 1.5rem;
+      border: none;
+      background: var(--background-inputs);
   
+ }
+    
+  }
+  
+
   @media (max-width: 750px) {
     .hamburger {
       display: block;
@@ -229,28 +243,11 @@ a{
       transform: rotate(-135deg);
       top: -7px;
     }
-  
-    header{
-      margin-bottom: 7rem;
-    }
-  
-    form{
-      max-width: 80%;
-    }
-  
-    .infos-pessoais{
-      grid-template-columns: 1fr;
-      width: 100%;
-      gap: 1rem;
-    }
-  
-    img{
+
+    #div_img{
       display: none;
     }
   
-    button{
-      width: 50%;
-    }
-  
-   
-  }
+    header{
+      margin-bottom: 7rem;
+    }}
