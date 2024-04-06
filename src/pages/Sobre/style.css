@@ -322,7 +322,7 @@ justify-content: center;
 
   
 
-#div_section3 button{
+#div_section3 button {
   color: #fff;
   background-color: #a90009;
   margin: 2rem auto ;
@@ -333,6 +333,11 @@ justify-content: center;
   cursor: pointer;
 
 }
+a {
+  color: #fff;
+  
+}
+
 
 #div_text h2{
  font-size: 25px;
