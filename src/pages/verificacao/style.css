@@ -11,12 +11,9 @@
       padding: 0;
       font-family: "Comfortaa", sans-serif;
       font-weight: 400;
-      border: #000 solid 1px;
+
 }
   
-body{
-      background-color: #b0151d;
-}
 
 form{
       display: flex;
@@ -82,7 +79,7 @@ form h1{
   height: 100vh;
   align-items: center;
   justify-content: center;
-  border: #00c4f5 solid 1px;
+
 }
 
 footer{
@@ -95,11 +92,7 @@ footer{
 }  
 
 main{
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: #1cf000 solid 1px;
+      background-color: #b0151d;
   }
 
 a{
@@ -171,6 +164,7 @@ a{
       background: var(--background-inputs);
   
  }
+
     
   }
   
@@ -248,6 +242,4 @@ a{
       display: none;
     }
   
-    header{
-      margin-bottom: 7rem;
-    }}
+   }
