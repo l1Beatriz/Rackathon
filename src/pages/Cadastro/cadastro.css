@@ -14,8 +14,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    height: 100vh;
 }
 
 .main-title {
@@ -31,22 +29,18 @@ form {
     flex-direction: column;
     background-color: white;
 
+    margin: 10px 0;
     padding: 40px;
-    max-width: 50%;
+    max-width: 90%;
     border-radius: 10px;
 
     box-shadow: 3px 3px 20px black;
 }
 
-.container-form {
-   display: flex; 
-}
 
 .container-inputs {
     display: flex;
     flex-direction: column;
-
-    margin-right: 20%;
 }
 
 .container-inputs > label {
@@ -56,7 +50,6 @@ form {
 .container-inputs > input {
     padding: 10px;
     margin-bottom: 20px;
-    width: 110%;
 
     border: none;
     background-color: var(--color-input);
@@ -64,10 +57,35 @@ form {
 }
 
 .span-info {
+    text-align: center;
     color: var(--main-color);
+}
+
+.container-imagem-ilustrativa {
+    display: flex;
+    justify-content: center;
 }
 
 .container-button > button {
     background-color: var(--main-color);
     color: #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .section-form {
+        height: 100vh;
+    }
+
+    .container-form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container-inputs {
+        width: 50%;
+    }
+
 }
