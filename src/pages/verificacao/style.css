@@ -11,7 +11,7 @@
       padding: 0;
       font-family: "Comfortaa", sans-serif;
       font-weight: 400;
-
+  border: #000 solid 1px;
 }
   
 
@@ -81,15 +81,35 @@ form h1{
   justify-content: center;
 
 }
+footer {
+  background-color: #c0c0c0;
+  padding: 50px;
+  margin-top: 50px;
+}
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-footer{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 1rem 0;
-    width: 100%;
-    background-color: var(--background-white);
-}  
+.section-footer > span {
+  text-align: center;
+  font-family: var(--main-font);
+  margin-top: 20px;
+}
+.list-icons {
+  display: flex;
+}
+
+.item-icon {
+  margin: 0 10px;
+  list-style: none;
+}
+
+.item-icon > img {
+  width: 40px;
+}
+
 
 main{
       background-color: #b0151d;
