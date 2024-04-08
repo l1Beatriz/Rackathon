@@ -4,6 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gotas do Amanhã</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/icone-gota.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,12 +25,15 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="/" class="logo">🩸</a>
+        <a href="/" class="logo">
+          <img src="./src/assets/icone-gota.png" alt="gota vermelha" />
+        </a>
         <button class="hamburger"></button>
         <ul class="nav-list">
-          <li><a href="#">Inicio </a></li>
-          <li><a href="#">sobre </a></li>
-          <li><a href="#">Agendamento</a></li>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./src/pages/Sobre/index.html">Sobre </a></li>
+          <li><a href="./src/pages/Cadastro/index.html">Cadastro</a></li>
+          <li><a href="./src/pages/Depoimentos/">Depoimentos</a></li>
         </ul>
       </nav>
     </header>
@@ -50,12 +62,49 @@
           </div>
         </div>
       </section>
+
       <section class="container-secundario">
         <div class="container">
-          <div class="container_img">
+          <div class="container_img2">
             <h2>ESSES SÃO NOSSOS PRINCIPAIS PONTOS NO BRASIL</h2>
             <div class="container-hospital">
-              <div class="hospital"></div>
+              <div class="hospital">
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="project-img">
+                        <img
+                          class="imgcarrosel"
+                          src="src/assets/doaçao de sangue.jpg"
+                          alt="Foto 01"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="project-img">
+                        <img
+                          class="imgcarrosel"
+                          src="src/assets/doaçao de sangue 2.jpg"
+                          alt="Foto 02"
+                        />
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="project-img">
+                        <img
+                          class="imgcarrosel"
+                          src="src/assets/sangue 3.jpg"
+                          alt="Foto 03"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="container_text">
@@ -77,7 +126,32 @@
         </div>
       </section>
     </main>
+    <footer>
+      <section class="section-footer">
+        <div>
+          <ul class="list-icons">
+            <li class="item-icon">
+              <img
+                src="/src/assets/icon-facebook.png"
+                alt="icone do facebook"
+              />
+            </li>
+            <li class="item-icon">
+              <img
+                src="/src/assets/icon-instagram.png"
+                alt="icone do instagram"
+              />
+            </li>
+            <li class="item-icon">
+              <img src="/src/assets/icon-twiter.png" alt="icone do twiter" />
+            </li>
+          </ul>
+        </div>
 
+        <span>@2024 Programadores do Amanha</span>
+      </section>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
