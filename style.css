@@ -163,8 +163,14 @@ a {
   text-align: center;
 }
 
+.container_img2 {
+  margin: 0px 30px;
+  border-radius: 50px;
+  text-align: center;
+}
+
 .hospital {
-  height: 520px;
+  height: 100px;
   width: 359px;
   background-color: white;
   display: flex;
@@ -225,4 +231,117 @@ button {
 
 #text-white {
   color: #fff;
+}
+
+span {
+  font-size: x-large;
+}
+
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+}
+
+@media screen and (max-width: 750px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 2%;
+    margin: 0 auto;
+  }
+
+  .container_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 5%;
+  }
+
+  .container_img {
+    display: none; /* Oculta a primeira imagem */
+    margin: 0 auto;
+    border-radius: 50px;
+    text-align: center;
+  }
+
+  .hospital {
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .container-hospital {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn_secundario {
+    height: 35px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 23px;
+    border: none;
+    cursor: pointer;
+    margin: 5% auto;
+    background-color: #a90009;
+    color: #fff;
+  }
+  footer {
+    background-color: #c0c0c0;
+    padding: 50px;
+    display: none;
+  }
+}
+
+.imgcarrosel {
+  box-shadow: 0 1px 2px #0003;
+  width: 100%;
+}
+
+footer {
+  background-color: #c0c0c0;
+  padding: 50px;
+  margin-top: 350px;
+}
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-footer > span {
+  text-align: center;
+  font-family: var(--main-font);
+  margin-top: 20px;
+}
+.list-icons {
+  display: flex;
+}
+
+.item-icon {
+  margin: 0 10px;
+  list-style: none;
+}
+
+.item-icon > img {
+  width: 40px;
 }
