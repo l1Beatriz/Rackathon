@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:wght@300;700&family=Josefin+Slab&family=Playpen+Sans:wght@100&display=swap');
+
+:root {
+    --main-color: #A90009;
+    --main-font: "Comfortaa", sans-serif;
+    --color-input: #D9D9D9;
+}
+
+main {
+    background-color: var(--main-color);
+}
+
+.section-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-family: var(--main-font);
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10%;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+    margin: 10px 0;
+    padding: 40px;
+    max-width: 90%;
+    border-radius: 10px;
+
+    box-shadow: 3px 3px 20px black;
+}
+
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-inputs > label {
+    margin-bottom: 15px;
+}
+
+.container-inputs > input {
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border: none;
+    background-color: var(--color-input);
+    border-radius: 10px;
+}
+
+.span-info {
+    text-align: center;
+    color: var(--main-color);
+}
+
+.container-imagem-ilustrativa {
+    display: flex;
+    justify-content: center;
+}
+
+.container-button > button {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .section-form {
+        height: 100vh;
+    }
+
+    .container-form {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container-inputs {
+        width: 50%;
+    }
+
+}
