@@ -12,7 +12,10 @@
       font-family: "Comfortaa", sans-serif;
       font-weight: 400;
 }
-  
+
+body{
+  background-color: #b0151d;
+}
 
 form{
       display: flex;
@@ -110,9 +113,7 @@ footer {
 }
 
 
-main{
-      background-color: #b0151d;
-  }
+
 
 a{
     font-family: sans-serif;
@@ -193,7 +194,7 @@ a{
     margin-bottom: 2rem;
     font-size: 25px;
   } 
-  
+ 
     
   }
   
@@ -270,5 +271,7 @@ a{
     #div_img{
       display: none;
     }
-  
+    header {
+      padding: 0 1rem;
    }
+  }
