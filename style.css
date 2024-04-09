@@ -137,6 +137,10 @@ a {
     transform: rotate(-135deg);
     top: -7px;
   }
+
+ header {
+  padding: 0 1rem;
+}
 }
 
 .container {
