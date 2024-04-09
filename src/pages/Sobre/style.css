@@ -189,7 +189,7 @@ div h1, div p{
 
 }
 #div_section1 button{ 
-
+  box-shadow: 3px 3px 10px;
   background-color: var(--bg-white);
  
   height: 35px;
