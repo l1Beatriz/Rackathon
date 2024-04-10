@@ -150,9 +150,9 @@ a {
     top: -7px;
   }
 
-  header{
-    margin-bottom: 7rem;
-  }}
+  header {
+    padding: 0 1rem;
+ }}
 #section1{
   background-color: #A90009;
   height: 21rem;
@@ -189,7 +189,7 @@ div h1, div p{
 
 }
 #div_section1 button{ 
-
+  box-shadow: 3px 3px 10px;
   background-color: var(--bg-white);
  
   height: 35px;
