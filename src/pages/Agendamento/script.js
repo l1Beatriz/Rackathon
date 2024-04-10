@@ -53,8 +53,13 @@ botaoConfirmar.addEventListener('click', (event) => {
 
     console.log(agendamento.verificaAnoNascimento(dataNascimento));
 
-    agendamento.verificaAnoNascimento(dataNascimento) === true ? paragrafo.innerHTML = 'Ano de nascimento inválido, tente novamente' : alert("Cadastro efetuado com sucesso");
-    agendamento.verificaIdade(dataNascimento) === false ? paragrafoErroIdade.innerHTML = 'Menor de idade não poderá realizar o agendamento' : alert("Cadastro efetuado com sucesso");
+    if (agendamento.verificaAnoNascimento(dataNascimento)) {
+        paragrafo.innerHTML = 'Ano de nascimento inválido, tente novamente';
+    } else if (!agendamento.verificaIdade(dataNascimento)) {
+        paragrafoErroIdade.innerHTML = 'Menor de idade não poderá realizar o agendamento';
+    } else {
+        alert("Cadastro efuatuado com sucesso!!")
+    }
 })
 
 
