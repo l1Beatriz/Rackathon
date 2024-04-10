@@ -98,7 +98,8 @@
     display: flex;
     flex-direction: column;
     max-width: 50%;
-
+    
+    margin: 30px 0;
     padding: 2rem 1rem;
     border-radius: 10px;
   }
