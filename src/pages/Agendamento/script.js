@@ -18,9 +18,7 @@ class Agendamento {
         const dataNascimento = new Date(data_nascimento);
         const anoNascimento = dataNascimento.getFullYear();
 
-        if(anoNascimento > 2024 && anoNascimento < 1900){
-            return false;  // retornando false pois é um ano inválido
-        }
+        return anoNascimento > 2024 && anoNascimento < 1900;
     }
 
     verificaIdade(data_nascimento){
@@ -32,7 +30,7 @@ class Agendamento {
 
         const idade = anoAtual - anoNascimento;
 
-        return idade < 18 ? false : true;
+        return idade >= 18;
     }
 
 
@@ -48,10 +46,15 @@ botaoConfirmar.addEventListener('click', (event) => {
     const possuiDoenca = document.getElementById('possui_doenca').value;
     const endereço = document.getElementById('endereco').value;
     const paragrafo = document.getElementById('paragrafo'); // para quando digitar o ano de nascimento
+    const paragrafoErroIdade = document.getElementById('paragrafo-idadeErro');
 
     const agendamento = new Agendamento(nomeCompleto, dataNascimento, tipoSanguineo, possuiDoenca,endereço);
     console.log(agendamento);
 
+    console.log(agendamento.verificaAnoNascimento(dataNascimento));
+
+    agendamento.verificaAnoNascimento(dataNascimento) === true ? paragrafo.innerHTML = 'Ano de nascimento inválido, tente novamente' : alert("Cadastro efetuado com sucesso");
+    agendamento.verificaIdade(dataNascimento) === false ? paragrafoErroIdade.innerHTML = 'Menor de idade não poderá realizar o agendamento' : alert("Cadastro efetuado com sucesso");
 })
 
 
