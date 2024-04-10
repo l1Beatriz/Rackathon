@@ -5,6 +5,10 @@
     --main-font: "Comfortaa", sans-serif;
 }
 
+header {
+    padding: 0;
+}
+
 .section-banner {
     display: flex;
     justify-content: space-around;
@@ -115,6 +119,7 @@
 }
 
 footer {
+    display: block;
     background-color: #c0c0c0;
     padding: 50px;
     margin-top: 50px;
