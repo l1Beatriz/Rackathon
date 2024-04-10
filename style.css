@@ -40,9 +40,9 @@ a {
   padding-block: 16px;
 }
 
-.hero {
+/* .hero {
   height: calc(100vh - 70px);
-}
+} */
 
 .container-primario {
   background-color: #a90009;
@@ -312,7 +312,7 @@ span {
   footer {
     background-color: #c0c0c0;
     padding: 50px;
-    display: none;
+    /* display: none; */
   }
 }
 
@@ -324,7 +324,7 @@ span {
 footer {
   background-color: #c0c0c0;
   padding: 50px;
-  margin-top: 350px;
+  /* margin-top: 350px; */
 }
 .section-footer {
   display: flex;
