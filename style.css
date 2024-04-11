@@ -10,6 +10,12 @@ a {
   font-family: sans-serif;
   text-decoration: none;
 }
+#sign{
+  color: #000;
+}
+#what{
+  color: #fff;
+}
 
 .header {
   background: #fff;
