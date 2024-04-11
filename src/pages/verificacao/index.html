@@ -45,24 +45,23 @@
           <section id="section_input">
             <div id="div_imput">
               <span>
-                <label for="">Faz uso de algum medicamento?</label>
-                <input type="text" />
+                <label for="">Faz uso de algum medicamento para tratamento doença?</label>
+                <input type="text" id="drug" />
               </span>
               <span>
                 <label for=""
-                  >Voce possui algum tipo de doença se sim qual(s)?</label
+                  >Estar em boas condições de saúde?</label
                 >
-                <input type="text" />
+                <input type="text" id="health" />
               </span>
               <span>
-                <label for="">pesa menos de 50kg?</label>
-                <input type="text" />
+                <label for="">Quantos quilos você pesa?</label>
+                <input type="number" id="weight" />
               </span>
               <span>
-                <label for=""
-                  > foi submetido a transplante de órgãos ou de medula?</label
+                <label for="">Quantos anos você tem?</label
                 >
-                <input type="text" />
+                <input type="number" id="age">
               </span>
             </div>
             <div id="div_img">
@@ -72,9 +71,12 @@
               />
             </div>
           </section>
+          <div id="divAnswer">
+
+          </div>
 
           <div id="div_button">
-            <button>Verificar</button>
+            <button id="check">Verificar</button>
           </div>
         </form>
       </section>
@@ -99,5 +101,6 @@
       </section>
   </footer>
     <script src="./script.js"></script>
-  </body>
+    <script src="./validacao.js"></script>
+  </body>
 </html>

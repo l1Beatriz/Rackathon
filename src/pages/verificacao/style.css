@@ -112,8 +112,14 @@ list-style: none;
 width: 40px;
 }
 
-
-
+.Positiveresponse{
+  margin: 10px;
+color: green;
+}
+.NegativeAnswer{
+  margin: 10px;
+  color: red;
+}
 
 a{
   font-family: sans-serif;
