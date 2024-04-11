@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Comfortaa", sans-serif;
+
 }
 
 a {
@@ -73,6 +74,7 @@ a {
   .hamburger {
     display: block;
     z-index: 1;
+  
   }
 
   .nav-list {
@@ -90,7 +92,7 @@ a {
     justify-content: space-around;
     align-items: center;
     gap: 0;
-
+    background-color: #a90009;
     pointer-events: none;
   }
 
@@ -169,6 +171,7 @@ a {
 
 .container_img2 {
   margin: 0px 30px;
+  margin-bottom: 340px;
   border-radius: 50px;
   text-align: center;
 }
@@ -231,6 +234,7 @@ button {
 
 .container-secundario {
   background-color: #ffffff;
+ 
 }
 
 #text-white {
